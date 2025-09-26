@@ -1,0 +1,16 @@
+@import './reset.css';
+@import '../../shared/styles/vars.scss';
+@import '../styles/fonts.css';
+@import '../styles//animations.css';
+
+body {
+  background-color: var(--color-background);
+  overflow-x: hidden;
+}
+
+#root {
+  padding-block: 10px;
+  min-height: 100vh;
+  font-family: var(--font-family-main);
+  overflow-x: hidden;
+}
