@@ -1,0 +1,49 @@
+@keyframes rotateTitle {
+    from {
+        transform: rotateX(-130deg);
+        opacity: 0.8;
+    }
+
+    to {
+        transform: rotateX(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes pushTitle {
+    from {
+        transform: translateX(2800px);
+        opacity: 0.1;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes removeTaskList {
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes showTaskList {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes showInput {
+    from {
+        opacity: 0;
+        scale: 0;
+    }
+
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
